@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class number{
+    public static void main(String[] args){
+        int i;
+        int j;
+        System.out.println("Nhap so nguyen i:");
+        Scanner sc = new Scanner(System.in);
+        i = sc.nextln();
+        if(i>0){
+            System.out.prinln("day la so nguyen duong");
+        }else{
+            System.out.println("day la so nguyen am");
+        }
+        System.out.println("so nguyen duong +1");
+    }
+}

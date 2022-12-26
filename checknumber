@@ -20,9 +20,8 @@ public class checknumber {
          case 6: System.out.println("Sáu"); break;
          case 7: System.out.println("Bảy"); break;
          case 8: System.out.println("Tám"); break;
-         case 9: System.out.println("Chín"); break;
          default:
-            System.out.println("Chỉ có 0 - 9");
+            System.out.println("Chỉ có 0 - 8");
             break;
       }
    }

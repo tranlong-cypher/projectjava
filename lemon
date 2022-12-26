@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class lemon{
+    public static void main(String[] args){
+        int i;
+        int j;
+        System.out.println("Nhap so nguyen i:");
+        System.out.println("Nhap so nguyen j:")
+        Scanner sc = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
+        i = sc.nextln();
+        j = sc1.nextln();
+        if(i + j >0){
+            System.out.prinln("day la so nguyen duong");
+        }else{
+            System.out.println("day la so nguyen am");
+        }
+    }
+}

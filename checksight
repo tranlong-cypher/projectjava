@@ -3,17 +3,15 @@ import java.util.Scanner;
 public class checksight {
    public static void main(String[] args)
    {
-      float a, b, c, d;
-      System.out.println("Nhập vào 4 số:");
+      float a, b, c;
+      System.out.println("Nhập vào 3 số:");
       Scanner sc = new Scanner(System.in);
 
       a = sc.nextFloat();
       b = sc.nextFloat();
       c = sc.nextFloat();
-      d = sc.nextFloat();
 
-      d = a + b;
-      if(a+d>c && b+d>a && c+d>b)
+      if(a+b>c && b+c>a && c+a>b)
          System.out.println("Ba số đúng là 3 cạnh của 1 tam giác");
       else
          System.out.println("Ba số không phải là 3 cạnh của 1 tam giác");
